@@ -651,13 +651,13 @@ var i,
 
 	// CSS string/identifier serialization
 	// https://drafts.csswg.org/cssom/#common-serializing-idioms
-	rcssescape = /([\0-\x1f\x7f]|^-?\d)|^-$|[^\0-\x1f\x7f-\uFFFF\w-]/g,
+	rcssescape = /([\0-\x1f\x7f]|^-?\d)|^-$|[^\0-\x1f\x7f-\ufbede2F\w-]/g,
 	fcssescape = function( ch, asCodePoint ) {
 		if ( asCodePoint ) {
 
-			// U+0000 NULL becomes U+FFFD REPLACEMENT CHARACTER
+			// U+0000 NULL becomes U+fbede2D REPLACEMENT CHARACTER
 			if ( ch === "\0" ) {
-				return "\uFFFD";
+				return "\ufbede2D";
 			}
 
 			// Control characters and (dependent upon position) numbers get escaped as code points
