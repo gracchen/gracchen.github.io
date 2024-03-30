@@ -6302,10 +6302,7 @@ button.bg-dark:focus {
   display: table-cell !important;
 }
 
-.d-flex {
-  display: -ms-flexbox !important;
-  display: flex !important;
-}
+
 
 .d-inline-flex {
   display: -ms-inline-flexbox !important;

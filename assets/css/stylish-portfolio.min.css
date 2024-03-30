@@ -26,7 +26,7 @@
 }
  
  .btn-xl {
-     padding: 1.25rem 2.5rem
+     padding: 0.9rem 1.15rem 0.9rem 1.15rem 
  }
  
  .content-section {
@@ -102,14 +102,7 @@
  
  .masthead {
      min-height: 30rem;
-     position: relative;
-     display: table;
-     width: 100%;
-     height: auto;
-     padding-top: 8rem;
-     padding-bottom: 8rem;
-     background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .1)), to(rgba(0, 0, 0, .1))), url(../img/bg-masthead.jpg);
-     background: linear-gradient(90deg, rgba(0, 0, 0, .1) 0, rgba(0, 0, 0, .1) 100%), url(../img/bg-masthead.jpg);
+     background: linear-gradient(0deg, rgba(0, 0, 0, .2) 0, rgba(151, 2, 84, 0.1) 100%), url(../img/bg-masthead.jpg);
      background-position: center center;
      background-repeat: no-repeat;
      background-size: cover
@@ -136,20 +129,20 @@
      position: fixed;
      z-index: 2;
      right: 0;
-     width: 250px;
+     width: 150px;
      height: 100%;
      -webkit-transition: all .4s ease 0s;
      transition: all .4s ease 0s;
-     -webkit-transform: translateX(250px);
-     transform: translateX(250px);
-     background: #1d809f;
+     -webkit-transform: translateX(150px);
+     transform: translateX(150px);
+     background: #fff;
      border-left: 1px solid rgba(255, 255, 255, .1)
  }
  
  .sidebar-nav {
      position: absolute;
      top: 0;
-     width: 250px;
+     width: 150px;
      margin: 0;
      padding: 0;
      list-style: none
@@ -158,14 +151,14 @@
  .sidebar-nav li.sidebar-nav-item a {
      display: block;
      text-decoration: none;
-     color: #fff;
+     color: #000000;
      padding: 15px
  }
  
  .sidebar-nav li a:hover {
      text-decoration: none;
-     color: #fff;
-     background: rgba(255, 255, 255, .2)
+     color: #000000;
+     background: rgb(130,10,104, 0.2);
  }
  
  .sidebar-nav li a:active,
@@ -175,8 +168,8 @@
  
  .sidebar-nav>.sidebar-brand {
      font-size: 1.2rem;
-     background: rgba(52, 58, 64, .1);
-     height: 80px;
+     background: #fff;
+     height: 50px;
      line-height: 50px;
      padding-top: 15px;
      padding-bottom: 15px;
@@ -193,37 +186,55 @@
  }
  
  #sidebar-wrapper.active {
-     right: 250px;
-     width: 250px;
+     right: 150px;
+     width: 150px;
      -webkit-transition: all .4s ease 0s;
      transition: all .4s ease 0s
  }
  
+ .grace-header {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    padding: 0px;
+    /*background: rgba(0, 0, 0, 1);*/
+    line-height: 50px;
+    font-size: 20px;
+    z-index: 999
+  }
+  #grace-title,#grace-title:visited, #grace-title:active {
+    color: #fff;
+    padding-left: 5%;
+  }
+
+  #grace-title:hover {
+    text-decoration: none;
+  }
+
  .menu-toggle {
      position: fixed;
-     right: 15px;
-     top: 15px;
-     width: 50px;
-     height: 50px;
+     right: 5%;
+     top: 0px;
+     width: 45px;
+     height: 45px;
      text-align: center;
-     color: #fff;
-     background: rgba(52, 58, 64, .5);
-     line-height: 50px;
-     z-index: 999
+     color: rgb(255,255,255,1);
+     line-height: 45px;
+     z-index: 999;
+     background-color: rgb(62,64,67,0.6)
  }
  
  .menu-toggle:focus,
  .menu-toggle:hover {
      color: #fff
  }
- 
- .menu-toggle:hover {
-     background: #343a40
- }
+
  
  .service-icon {
      background-color: #fff;
-     color: #6e236c;
+     color: #78176A;
      height: 7rem;
      width: 7rem;
      display: block;
@@ -317,7 +328,7 @@
      }
  
      .portfolio-item:hover .caption {
-         background-color: 5d165a;
+         background-color: 820A68;
          -webkit-clip-path: inset(2rem);
          clip-path: inset(2rem)
      }
@@ -334,7 +345,7 @@
      width: 4rem;
      line-height: 4.3rem;
      font-size: 1.5rem;
-     background-color: #6e236c;
+     background-color: #78176A;
      -webkit-transition: background-color .15s ease-in-out;
      transition: background-color .15s ease-in-out;
      -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
@@ -342,7 +353,7 @@
  }
  
  footer.footer .social-link:hover {
-     background-color: #5d165a;
+     background-color: #820A68;
      text-decoration: none
  }
  
@@ -357,15 +368,15 @@
  }
  
  .btn-primary {
-     background-color: #6e236c !important;
-     border-color: #6e236c !important;
+     background-color: #78176A !important;
+     border-color: #78176A !important;
      color: #fff !important
  }
  
  .btn-primary:active,
  .btn-primary:focus,
  .btn-primary:hover {
-     background-color: #5d165a !important;
+     background-color: #820A68 !important;
      border-color: #5d165a !important
  }
  
@@ -393,11 +404,11 @@
  }
  
  .bg-primary {
-     background-color: #6e236c !important
+     background-color: #78176A !important
  }
  
  .text-primary {
-     color: #6e236c !important
+     color: #820A68 !important
  }
  
  .text-secondary {

@@ -1,3 +1,5 @@
+# darker purple: #78176A
+# brighter purple: #820A68
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -13,13 +15,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jekyll Powered Start Bootstrap Template
-email: vidhyav656@gmail.com
-description: Stylish Portfolio is a responsive, one page portfolio theme for Bootstrap created by Start Bootstrap. The theme features multiple content sections with an off canvas navigation menu.
+title: AI x Music
+email: gracetheartist@g.ucla.edu
+description: A smart sheet music app! Transform how you practice with frontier machine learning research. Say goodbye to the awkward gap between ear training, performance study, and hands-on practicing! With precise tracking of real-time performance audio to sheet music, seamlessly navigate your score and summon a passage of your recording with a single tap on the sheet music. 
 
-keywords: jekyll, bootstrap, jekyll-site, jekyll-website, html, bootstrap4, bootstrap-4, bootstrap-theme, bootstrap-template, portfolio-website, portfolio-theme, open-source, free, google-anaytics, github-pages
+keywords: artificial intelligence, ai, machine learning, ml, musician, real-time, performance, performance study, shazam, sheet music, smart, score, audio, recording, score following, score-following, listening, practice, practicing, musescore, live, composer, student, music, app
 
-#baseurl: "/startbootstrap-stylish-portfolio-jekyll" # the subpath of your site, e.g. /blog
+#baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  gracchen

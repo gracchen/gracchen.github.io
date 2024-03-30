@@ -12,6 +12,6 @@ then visit http://localhost:4000/
 
 
 # colors
-accent: #6e236c
-hover: #5d165a
+accent: #78176A
+hover: #820A68
 background: #fcfaf1
