@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="{{ site.author }}">
     <link type="text/plain" rel="author" href="{{ site.baseurl }}/humans.txt" />
-    <title>{% if page.title %}{{ page.title }} - {% elsif post.title %}{{ post.title }} - {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% elsif post.title %}{{ post.title }} - {% endif %}{{ site.title }}</title>
     {% capture description %}
     {% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}
     {% endcapture %}
@@ -25,6 +25,7 @@
     <link href="{{ site.baseurl }}/assets/css/stylish-portfolio.min.css" rel="stylesheet">
     <script src="http://127.0.0.1:35729/livereload.js"></script>
 </head>
+{% include google_analytics.html %}
 
 <body id="page-top">
     <!-- Navigation -->
@@ -47,7 +48,6 @@
     <script src="{{ site.baseurl }}/vendor/jquery-easing/jquery.easing.min.js"></script>
     <!-- Custom scripts for this template -->
     <script src="{{ site.baseurl }}/assets/js/stylish-portfolio.min.js"></script>
-    {% include google_analytics.html %}
 </body>
 
 </html>

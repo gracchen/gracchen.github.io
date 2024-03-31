@@ -27,7 +27,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  gracchen
 linkedin_username:  grace-chen1
 deviantart_username:  gracethelittleartist
-#google_analytics_tracking_id: UA-129738661-1
+google_analytics_tracking_id: G-WXZNLWL73Z
 # Build settings
 markdown: kramdown
 theme: minima
